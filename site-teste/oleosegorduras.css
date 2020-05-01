@@ -1,0 +1,307 @@
+body {
+    background-color:rgb(255, 255, 255);
+    
+}
+/*inicio cabecalho*/
+div#cabeca{
+    border-bottom: 3px solid rgba(0,0,0,0.3);
+    padding-bottom: 20px;
+    background: url('logo_sonutricao.png') no-repeat 30px 30px;
+    height: 170px;
+   
+   
+}
+img#imagemoleo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    right: 70px;
+}
+
+/*inicio figura da mulher*/
+figure#centro {
+    position: absolute;
+    left: 390px;
+    top: 40px;
+    width: 500px;
+    height: 100px;
+    border-radius: 20px 20px 20px 20px
+}
+
+figure#centro img {
+    width: 100%;
+    height: 100%;
+}
+
+figure#centro figcaption {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 20px 20px 20px 20px;
+    
+}
+
+figure#centro :hover{
+    color: rgb(0, 0, 0);
+    transition: opacity 1s;
+    opacity: 1;
+}
+/*fim figura da mulher*/
+
+/*inicio div de registro*/
+div#registro {
+    text-align: right;
+    position: absolute;
+    top: 245px;
+    right:110px;
+    border-left: rgba(0,0,0,0.3) 1px solid;
+    padding-left: 4px;
+    border-bottom: rgba(0,0,0,0.3) 1px solid;
+    padding-bottom: 6px;
+    border-right: rgba(0,0,0,0.3) 1px solid;
+    padding-right: 4px;
+    background-color: rgb(180, 228, 141);
+    border-radius: 4px;
+    height: 200px;
+    
+}
+input.regis {
+    padding: 10px;
+    margin: 3px;
+}
+input#registrar{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px 4px 4px 4px;
+    color: rgb(145, 199, 100);
+    position: relative;
+    right: 60px;
+    height: 35px;
+    width: 100px;
+    
+}
+input#registrar:active {
+    background-color:rgb(145, 199, 100);
+    color: rgb(38, 58, 21);
+}
+input#registrar:hover{
+    background-color: rgb(153, 180, 131);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+h1#registrar{
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+/*fim div de registro*/
+
+/*inicio da nav de menu fixada*/
+nav#menu h1 {
+    display: none;
+}
+nav#menu {
+    display: block;
+    
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: fixed;
+    top: -20px;
+    left: 410px;
+    background-color: rgb(145, 199, 100);
+    padding: 0px;
+    border-radius: 4px 4px 4px 4px ;
+}
+nav#menu li {
+    display: inline-block;
+    background-color:rgb(145, 199, 100);
+    padding: 10px;
+    border-radius: 4px 4px 4px 4px;
+    margin: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+nav#menu li:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(101, 184, 46);
+    
+}
+nav#menu li.redes:hover {
+    background-color: rgb(145, 199, 100);
+}
+nav#menu li.redes{
+    padding-bottom:-112px;
+}
+/*fim da nav de menu fixada*/
+
+/*div de pesquisa*/
+div#pesquisa{
+    position: absolute;
+    top: 4px;
+    right: 20px;
+    
+}
+input#pesquisa {
+    width: 150px;
+    height: 30px;
+    padding: 3px;
+    margin-right:3px;
+}
+input#botaopesquisar {
+    width: 150px;
+    background-color:rgb(145, 199, 100);
+    height: 42px;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+input#botaopesquisar:active {
+    background-color:rgb(205, 241, 158);
+    color: rgb(52, 73, 34);
+}
+input#botaopesquisar:hover{
+    background-color: rgb(201, 248, 163);
+    color: rgb(52, 73, 34);
+}
+/*fim div de pesquisa*/
+
+/*fim cabeçalho*/
+
+/*inicio section*/
+section#corpo {
+    display: block;
+    width: 700px;
+    height: 1460px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 50, 50);
+    margin: auto;
+    padding: 10px;
+    text-align: justify; text-indent: 50px;
+    float: left;
+    
+}
+div#conteudo{
+    height: 1450px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+}
+p { 
+    font-family: 'Mukta', sans-serif;
+
+}
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(145, 199, 100);
+
+}
+
+/*fim section*/
+
+/*inicio aside lateral*/
+aside#lateral{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    width: 550px;
+}
+table#tabela {
+    border: 1px black solid;
+    text-align: center;
+    background-color: rgb(85, 119, 57);
+}
+table#tabela td {
+    border: 1px black solid;
+    padding: 15px;
+    height: 100px;
+    width: 130px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+table#tabela caption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+/*fim aside lateral*/
+
+/*inicio rodape*/
+footer{
+    background-color: rgb(145, 199, 100);
+    height: 150px;
+    clear: both;
+    margin-top: 1500px;
+    
+}
+div#menusrodape ul{
+    display: inline-block;
+    background-color:rgb(145, 199, 100);
+    width: 180px;
+    height: 120px;
+    list-style: none;
+    margin-top: 0px;
+}
+div#menusrodape {
+    text-align: center;
+}
+div#menusrodape h4 {
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+div#menusrodape li {
+    margin-top: -10px;
+    color: rgb(29, 68, 27);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: -10px;
+    padding: 3px;
+}
+a {
+    text-decoration:none;
+}
+div#menulogos {
+    background-color: rgb(234, 236, 232);
+    height: 50px;
+    margin-top: -30px;
+}
+div#menulogos ul {
+    list-style: none;
+    text-align: center;
+    height: 60px;
+
+}
+div#menulogos li {
+    display: inline-block;
+    padding-right: 10px;
+    width: 60px;
+    height: 60px;
+   
+}
+div#menulogos li:hover {
+    height: 90px;
+    width: 90px;
+    background-color: rgb(165, 165, 164);
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-bottom: -20px;
+    
+}
+div#marca{
+    background-color: white;
+}
+div#marca p {
+    display: block;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+
+/*fim rodape*/
