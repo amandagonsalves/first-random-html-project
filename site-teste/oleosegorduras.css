@@ -6,7 +6,7 @@ body {
 div#cabeca{
     border-bottom: 3px solid rgba(0,0,0,0.3);
     padding-bottom: 20px;
-    background: url('logo_sonutricao.png') no-repeat 30px 30px;
+    background: url('../site-teste/images/logo_sonutricao.png') no-repeat 30px 30px;
     height: 170px;
    
    
