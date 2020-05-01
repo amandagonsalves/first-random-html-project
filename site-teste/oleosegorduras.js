@@ -10,9 +10,12 @@ function registrar(){
     if(usuario.value.length==0||senha.value.length==0||senha.value.length<8) {
         alert('Insira seus dados para o registro. A senha deve ter no mínimo 8 dígitos.')
     } else {
-
         res.innerHTML=`O usuário ${usuario.value} foi registrado. Sua senha é ${senha.value}`
     } 
+    usuario.value=''
+    usuario.focus()
+    senha.value=''
+    senha.focus()
 }
 
 
