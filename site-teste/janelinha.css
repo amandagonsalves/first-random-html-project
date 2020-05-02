@@ -1,8 +1,19 @@
 section {
     margin: auto;
-    width: 500px;
+    width: 350px;
+    background-color: rgb(145, 199, 100);
+    color: white;
+    padding: 10px;
 }
-
+body {
+    overflow: hidden;
+}
 section p {
+    margin-bottom: 150px;
     text-align: justify; text-indent:50px;
+}
+h1#hframe {
+    margin: 120px auto 120px auto;
+    padding-top: 50px;
+    padding-left: 35px;
 }
