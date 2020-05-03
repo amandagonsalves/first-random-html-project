@@ -236,6 +236,10 @@ table#tabela td {
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
 }
+table#tabela td img:hover {
+    -webkit-transform: scale(1.5);
+    -webkit-transition: all .3s ease-in;
+}
 table#tabela caption {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
