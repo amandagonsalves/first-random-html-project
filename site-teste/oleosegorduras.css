@@ -224,12 +224,12 @@ aside#lateral{
     width: 550px;
 }
 table#tabela {
-    border: 1px black solid;
+    border: 1px rgb(101, 172, 68) solid;
     text-align: center;
-    background-color: rgb(85, 119, 57);
+    background-color: rgb(151, 151, 151);
 }
 table#tabela td {
-    border: 1px black solid;
+    border: 1px rgb(104, 209, 101) solid;
     padding: 15px;
     height: 100px;
     width: 130px;
