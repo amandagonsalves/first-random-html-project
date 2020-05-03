@@ -188,14 +188,14 @@
             <div id="registro">
 
                 <h1 id="registrar">Registre-se</h1>
+                <form>
+                    <div id="textos">
+                        <input type="text" placeholder="Digite seu e-mail" class="regis" id="usuario"><br>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha" class="regis"><br>
+                    </div>
 
-                <div id="textos">
-                    <input type="text" placeholder="Digite seu e-mail" class="regis" id="usuario"><br>
-                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" class="regis"><br>
-                </div>
-
-                <input type="button" value="Registrar" id="registrar" onclick="registrar()">
-
+                    <input type="button" value="Registrar" id="registrar" onclick="registrar()">
+                </form>
             </div>
 
 
@@ -203,14 +203,23 @@
              
             </div>
             <section id="conteudojanelinha">
-                <iframe src="janelinha.html" frameborder="0" id="frame" name="janela" id="framejanela"></iframe>
+                <iframe src="janelinha.html" frameborder="0" id="frame" name="janela"></iframe>
                 <img src="../site-teste/images/gordurasiframe.jpg" alt="exemplos de gorduras" id="exemplos" usemap="#meumapa">
                 <map name="meumapa">
-                    <area shape="rect" coords="30,180,200,350" href="janelinha.html#abacate" target="janela">
-                    <area shape="rect" coords="390,150,200,340" href="janelinha.html#azeite" target="janela">
-                    <area shape="rect" coords="380,20,210,150" href="janelinha.html#castanha" target="janela"> 
-                    <area shape="rect" coords="14,6,200,140" href="janelinha.html#peixes" target="janela">
+                    <area shape="rect" coords="30,180,200,350" href="janelinha.html#abacate" target="janela" id="abacatinho" onmouseover="mudaArtigo('janelinha.html#abacate')" onmouseout="mudaArtigo('janelinha.html#hframe')">
+
+                    <area shape="rect" coords="390,150,200,340" href="janelinha.html#azeite" target="janela"
+                    onmouseover="mudaArtigo('janelinha.html#azeite')" onmouseout="mudaArtigo('janelinha.html#hframe')">
+
+                    <area shape="rect" coords="380,20,210,150" href="janelinha.html#castanha" target="janela"
+                    onmouseover="mudaArtigo('janelinha.html#castanha')" onmouseout="mudaArtigo('janelinha.html#hframe')"> 
+
+                    <area shape="rect" coords="14,6,200,140" href="janelinha.html#peixes" target="janela"
+                    onmouseover="mudaArtigo('janelinha.html#peixes')" onmouseout="mudaArtigo('janelinha.html#hframe')">
                 </map>
+            </section>
+            <section id="multimidia">
+                <video src="" width="400px"></video>
             </section>
             
 

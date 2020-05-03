@@ -26,4 +26,6 @@ function mudaFoto(foto) {
 
 
 //------------------------------------------------------------------------------------------
-
+function mudaArtigo(artigo) {
+    document.querySelector('iframe#frame').src=artigo
+}
