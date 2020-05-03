@@ -57,7 +57,7 @@ figure#centro :hover{
 div#registro {
     text-align: right;
     position: absolute;
-    top: 280px;
+    top: 225px;
     right:110px;
     border-left: rgba(0,0,0,0.3) 1px solid;
     padding-left: 4px;
@@ -100,6 +100,16 @@ h1#registrar{
     position: relative;
     text-align: center;
     cursor: default;
+}
+div#res {
+    position: absolute;
+    top:435px;
+    right: 85px;
+    width: 250px;
+    height: 70px;
+    border: 2px solid rgb(168, 161, 161);
+    border-radius: 5px;
+    text-align: center;
 }
 /*fim div de registro*/
 
@@ -231,6 +241,9 @@ table#tabela caption {
     font-size: 20px;
 }
 iframe#frame {
+    position: relative;
+    top: 60px;
+    right: 20px;
     width: 400px;
     height: 280px;
     border: none;
@@ -240,6 +253,9 @@ iframe#frame::-webkit-scrollbar {
     display: none;
 }
 img#exemplos {
+    position: relative;
+    top: 60px;
+    right: 20px;
     width: 400px;
     height: 350px;
 }
