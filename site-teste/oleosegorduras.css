@@ -263,6 +263,26 @@ img#exemplos {
     width: 400px;
     height: 350px;
 }
+section#albumdefotos {
+
+}
+ul#listaalbum {
+    position:relative;
+    top:70px;
+    width: 325px;
+    display: block;
+    background-color: rgb(101, 172, 68);
+    list-style: none;
+}
+ul#listaalbum li {
+    background-color: rgb(153, 180, 131);
+    padding: 95px;
+    border: 1px solid black;
+    margin: auto;
+}
+ul#listaalbum li#foto01 {
+    
+}
 /*fim aside lateral*/
 
 /*inicio rodape*/
