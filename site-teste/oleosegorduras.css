@@ -241,6 +241,9 @@ table#tabela td {
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
 }
+table#tabela td img {
+    padding: 15px;
+}
 table#tabela td img:hover {
     -webkit-transform: scale(1.5);
     -webkit-transition: all .3s ease-in;
@@ -252,6 +255,7 @@ table#tabela caption {
     background-color: rgb(205, 241, 158);
     border: 1px solid rgb(117, 115, 115);
     border-radius: 3px;
+    padding-bottom: 3px;
 }
 iframe#frame {
     position: relative;
