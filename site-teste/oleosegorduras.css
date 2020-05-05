@@ -56,16 +56,12 @@ figure#centro :hover{
 /*inicio div de registro*/
 div#registro {
     text-align: right;
-    position: absolute;
-    top: 225px;
-    right:110px;
     border: rgba(0,0,0,0.3) 1px solid;
     padding-left: 4px;
     padding-bottom: 6px;
     padding-right: 4px;
     background-color: rgb(201, 240, 169);
     border-radius: 4px;
-    
     height: 200px;
     
 }
@@ -158,9 +154,7 @@ nav#menu li.redes{
 
 /*div de pesquisa*/
 div#pesquisa{
-    position: absolute;
-    top: 4px;
-    right: 20px;
+    float: right;
     
 }
 input#pesquisa {
@@ -195,19 +189,18 @@ input#botaopesquisar:hover{
 /*inicio section*/
 section#corpo {
     display: block;
-    width: 700px;
-    height: 1460px;
+    max-width: 700px;
     background-color: rgb(255, 255, 255);
     color: rgb(102, 50, 50);
-    margin: auto;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 2%;
     text-align: justify; text-indent: 50px;
     float: left;
     
 }
 div#conteudo{
-    height: 1450px;
-    width: 700px;
+    height: 100%;
+    width: 100%;
     background-color: rgb(255, 255, 255);
 }
 p { 
@@ -273,7 +266,7 @@ img#exemplos {
     position: relative;
     top: 60px;
     right: 20px;
-    width: 400px;
+    width: 370px;
     height: 350px;
 }
 
@@ -352,3 +345,35 @@ div#marca p {
 
 
 /*fim rodape*/
+
+@media (max-width:600px){
+    img#imagemoleo {
+        display: none;
+    }
+    div#pesquisa {
+        max-width: 200px;
+        float:left;
+        margin: 10% 40%;
+    }
+    aside#lateral{
+        width: 100%;
+        margin-bottom: 15%;
+        text-align: center;
+    }
+    section#corpo {
+        background-color: rgb(101, 184, 46);
+        max-height: 2300px;
+    }
+    div#registro {
+        max-width: 200px;
+        float: right;
+        width: 50%;
+        margin-top: -90%;
+    }
+    footer {
+        width: 100%;
+    }
+}
+@media (min-width:601px) and (max-width:700px) {
+
+}
