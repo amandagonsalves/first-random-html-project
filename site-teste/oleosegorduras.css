@@ -498,7 +498,7 @@ figure#centro {
         margin: 5% 25%;
     }
     aside#lateral{
-        width: 100%;
+        width: 70%;
         margin-bottom: 15%;
         float: left;
     }
@@ -523,7 +523,7 @@ figure#centro {
 @media screen and (min-width:901px) and (max-width:1024px) {
     section#corpo {
         background-color: rgb(0, 255, 76);
-        max-width: 980px;
+        max-width: 900px;
     }
     div#cabeca {
         width: 100%;
@@ -540,13 +540,11 @@ figure#centro {
         margin: 5% 25%;
     }
     aside#lateral{
-        width: 100%;
+        width: 70%;
         margin-bottom: 15%;
         float: left;
     }
-    section#conteudojanelinha {
-        text-align: center;
-    }
+    
     div#registro {
         max-width: 200px;
         float: right;
@@ -565,4 +563,95 @@ figure#centro {
         width: 40%;
     }
     
+}
+
+@media screen and (min-width:1024px) and (max-width:1100px) {
+    section#corpo {
+        background-color: rgb(102, 50, 50);
+        max-width: 980px;
+    }
+    div#pesquisa {
+        max-width: 200px;
+        float:left;
+        margin: 5% 20%;
+    }
+    aside#lateral{
+        width: 100%;
+        max-height: 700px;
+        float: left;
+        padding: 3%;
+    }
+    section#conteudojanelinha {
+        float: right;
+        position: relative;
+        top:-470px;
+        right: 360px;
+        max-width: 400px;
+        margin-bottom: 0%;
+    }
+    footer {
+        margin-top: -800px;
+    }
+    div#registro {
+
+        max-width: 200px;
+        float: right;
+        margin-top: -290px;
+        margin-right: 80px;
+        width: 50%;
+    }
+    figure#centro {
+        right:49px;
+    }
+   div#res {
+       display: none;
+   }
+   img#imagemoleo {
+       float: right;
+       right: 5px;
+       max-width: 80px;
+       max-height: 70px;
+   }
+}
+@media screen and (min-width:1100px) and (max-width:1300px) {
+    section#corpo {
+        background-color: rgb(255, 0, 21);
+        max-width: 700px;
+        width: 50%;
+        float: left;
+    }
+    div#cabeca {
+        width: 100%;
+        max-height: 170px;
+       
+    }
+    aside#lateral {
+        width: 40%;
+    }
+  
+    div#registro {
+        max-width: 200px;
+        float: right;
+        margin-top: -300px;
+        margin-right: 20px;
+        width: 50%;
+        
+    }
+    div#res {
+        display: none;
+    }
+    footer {
+        width: 100%;
+    }
+    figure#centro {
+        width: 40%;
+    }
+    div#pesquisa {
+        max-width: 200px;
+        float:left;
+        margin: 5% 15%;
+    }
+}
+@media screen and (min-width:1300px) {
+
 }
