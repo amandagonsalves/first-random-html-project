@@ -100,16 +100,7 @@ h1#registrar{
     text-align: center;
     cursor: default;
 }
-div#res {
-    position: absolute;
-    top:435px;
-    right: 85px;
-    width: 250px;
-    height: 70px;
-    border: 2px solid rgb(168, 161, 161);
-    border-radius: 5px;
-    text-align: center;
-}
+
 /*fim div de registro*/
 
 /*inicio da nav de menu fixada*/
@@ -379,9 +370,6 @@ div#marca p {
         margin-top: -290px;
         margin-right: 20px;
     }
-    div#res {
-        display: none;
-    }
     footer {
         width: 100%;
     }
@@ -422,9 +410,6 @@ div#marca p {
         margin-right: 20px;
         width: 50%;
         
-    }
-    div#res {
-        display: none;
     }
     footer {
         width: 100%;
@@ -468,9 +453,6 @@ div#registro {
     width: 50%;
     
 }
-div#res {
-    display: none;
-}
 footer {
     width: 100%;
 }
@@ -506,18 +488,23 @@ figure#centro {
         max-width: 200px;
         float: right;
         margin-top: -290px;
-        margin-right: 20px;
+        margin-right: -250px;
         width: 50%;
         
-    }
-    div#res {
-        display: none;
     }
     footer {
         width: 100%;
     }
     figure#centro {
         display: none;
+    }
+    section#conteudojanelinha {
+        float: right;
+        position: relative;
+        top:-470px;
+        right: -50px;
+        max-width: 400px;
+        margin-bottom: -70%;
     }
     }
 @media screen and (min-width:901px) and (max-width:1024px) {
@@ -549,18 +536,23 @@ figure#centro {
         max-width: 200px;
         float: right;
         margin-top: -290px;
-        margin-right: 20px;
+        margin-right: -230px;
         width: 50%;
         
-    }
-    div#res {
-        display: none;
     }
     footer {
         width: 100%;
     }
     figure#centro {
         width: 40%;
+    }
+    section#conteudojanelinha {
+        float: right;
+        position: relative;
+        top:-470px;
+        right: 20px;
+        max-width: 400px;
+        margin-bottom: -70%;
     }
     
 }
@@ -603,9 +595,6 @@ figure#centro {
     figure#centro {
         right:49px;
     }
-   div#res {
-       display: none;
-   }
    img#imagemoleo {
        float: right;
        right: 5px;
@@ -613,7 +602,7 @@ figure#centro {
        max-height: 70px;
    }
 }
-@media screen and (min-width:1100px) and (max-width:1300px) {
+@media screen and (min-width:1100px) and (max-width:1281px) {
     section#corpo {
         background-color: rgb(255, 0, 21);
         max-width: 700px;
@@ -637,9 +626,6 @@ figure#centro {
         width: 50%;
         
     }
-    div#res {
-        display: none;
-    }
     footer {
         width: 100%;
     }
@@ -652,6 +638,59 @@ figure#centro {
         margin: 5% 15%;
     }
 }
+@media screen and (min-width:1281px) and (max-width:1300px){
+    section#corpo {
+        background-color: rosybrown;
+        float: left;
+        position: relative;
+        left: 0px;
+        top: 0;
+        max-width: 630px;
+    }
+    aside#lateral {
+        background-color: rgb(255, 255, 255);
+    }
+    div#registro {
+        max-width: 200px;
+        float: right;
+        margin-top: -300px;
+        margin-right: 20px;
+        width: 50%;
+        
+    }
+    div#pesquisa {
+        max-width:300px;
+        float: right;
+        margin: 0% -2% ;
+    }
+    img#imagemoleo {
+        max-width: 80px;
+        max-height: 80px;
+        float: right;
+        position: relative;
+        right: -210px;
+    }
+}
 @media screen and (min-width:1300px) {
-
+    section#corpo {
+        background-color: rgb(112, 110, 110);
+    }
+    div#pesquisa {
+        max-width: 400px;
+        float:right;
+        margin: 0% 0%;
+    }
+    aside#lateral {
+        width: 40%;
+    }
+  
+    div#registro {
+        max-width: 200px;
+        float: right;
+        margin-top: -300px;
+        margin-right: 20px;
+        width: 50%;
+        
+    }
+    
 }
