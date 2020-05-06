@@ -7,7 +7,6 @@ div#cabeca{
     border-bottom: 3px solid rgba(0,0,0,0.3);
     padding-bottom: 20px;
     background: url('../site-teste/images/logo_sonutricao.png') no-repeat 30px 30px;
-    height: 150px;
    
    
 }
@@ -269,6 +268,7 @@ footer{
     height: 150px;
     clear: both;/*para separar o footer da section e do aside, já que sem essa conf ele ficaria sobreposto*/
     margin-top: 1500px;
+    width: 100%;
     
 }
 div#menusrodape ul{
@@ -336,12 +336,12 @@ div#marca p {
 
 
 /*fim rodape*/
+/*==================MEDIA==================*/
 
 @media screen and (max-width:600px){
     div#cabeca {
         width: 100%;
-        max-height: 170px;
-       
+        height: 170px;
     }
     img#imagemoleo {
         display: none;
@@ -361,7 +361,7 @@ div#marca p {
         text-align: center;
     }
     section#corpo {
-        background-color: rgb(41, 77, 179);
+        /*background-color: rgb(24, 1, 1);*/
         max-height: 2300px;
     }
     div#registro {
@@ -370,21 +370,17 @@ div#marca p {
         margin-top: -290px;
         margin-right: 20px;
     }
-    footer {
-        width: 100%;
-    }
     figure#centro {
         display: none;
     }
 }
 @media screen and (min-width:601px) and (max-width:700px) {
-    section#corpo {
+    /*section#corpo {
         background-color: rgb(189, 34, 34);
-    }
+    }*/
     div#cabeca {
         width: 100%;
-        max-height: 170px;
-       
+        height: 170px;
     }
     img#imagemoleo {
         display: none;
@@ -411,64 +407,56 @@ div#marca p {
         width: 50%;
         
     }
-    footer {
-        width: 100%;
-    }
     figure#centro {
         display: none;
     }
    
 }
 @media screen and (min-width:701px) and (max-width:800px) {
-section#corpo {
-    background-color: rgb(245, 16, 157);
-}
-div#cabeca {
-    width: 100%;
-    max-height: 170px;
-   
-}
-img#imagemoleo {
-    display: none;
-}
-input#botaopesquisar{
-    max-width: 100px;
-    margin: 0 10%;
-}
-div#pesquisa {
-    max-width: 200px;
-    float:left;
-    margin: 5% 30%;
-}
-aside#lateral{
-    width: 100%;
-    margin-bottom: 15%;
-    float: left;
-}
-div#registro {
-    max-width: 200px;
-    float: right;
-    margin-top: -290px;
-    margin-right: 20px;
-    width: 50%;
-    
-}
-footer {
-    width: 100%;
-}
-figure#centro {
-    display: none;
-}
-}
-@media screen and (min-width:801px) and (max-width:900px) {
-    section#corpo {
-        background-color: rgb(255, 230, 0);
-        max-width: 980px;
-    }
+    /*section#corpo {
+        background-color: rgb(245, 16, 157);
+    }*/
     div#cabeca {
         width: 100%;
-        max-height: 170px;
-       
+        height: 170px;
+    }
+    img#imagemoleo {
+        display: none;
+    }
+    input#botaopesquisar{
+        max-width: 100px;
+        margin: 0 10%;
+    }
+    div#pesquisa {
+        max-width: 200px;
+        float:left;
+        margin: 5% 30%;
+    }
+    aside#lateral{
+        width: 100%;
+        margin-bottom: 15%;
+        float: left;
+    }
+    div#registro {
+        max-width: 200px;
+        float: right;
+        margin-top: -290px;
+        margin-right: 20px;
+        width: 50%;
+        
+    }
+    figure#centro {
+        display: none;
+    }
+}
+@media screen and (min-width:801px) and (max-width:900px) {
+    div#cabeca {
+        width: 100%;
+        height: 170px;
+    }
+    section#corpo {
+        /*background-color: rgb(255, 230, 0);*/
+        max-width: 980px;
     }
     img#imagemoleo {
         display: none;
@@ -492,9 +480,6 @@ figure#centro {
         width: 50%;
         
     }
-    footer {
-        width: 100%;
-    }
     figure#centro {
         display: none;
     }
@@ -508,14 +493,13 @@ figure#centro {
     }
     }
 @media screen and (min-width:901px) and (max-width:1024px) {
-    section#corpo {
-        background-color: rgb(0, 255, 76);
-        max-width: 900px;
-    }
     div#cabeca {
         width: 100%;
-        max-height: 170px;
-       
+        height: 170px;
+    }
+    section#corpo {
+        /*background-color: rgb(0, 255, 76);*/
+        max-width: 900px;
     }
     img#imagemoleo {
         display: none;
@@ -540,9 +524,6 @@ figure#centro {
         width: 50%;
         
     }
-    footer {
-        width: 100%;
-    }
     figure#centro {
         width: 40%;
     }
@@ -558,8 +539,12 @@ figure#centro {
 }
 
 @media screen and (min-width:1024px) and (max-width:1100px) {
+    div#cabeca {
+        width: 100%;
+        height: 170px;
+    }
     section#corpo {
-        background-color: rgb(102, 50, 50);
+        /*background-color: rgb(102, 50, 50);*/
         max-width: 980px;
     }
     div#pesquisa {
@@ -603,8 +588,12 @@ figure#centro {
    }
 }
 @media screen and (min-width:1100px) and (max-width:1281px) {
+    div#cabeca {
+        width: 100%;
+        height: 170px;
+    }
     section#corpo {
-        background-color: rgb(255, 0, 21);
+        /*background-color: rgb(255, 0, 21);*/
         max-width: 700px;
         width: 50%;
         float: left;
@@ -626,9 +615,6 @@ figure#centro {
         width: 50%;
         
     }
-    footer {
-        width: 100%;
-    }
     figure#centro {
         width: 40%;
     }
@@ -639,8 +625,12 @@ figure#centro {
     }
 }
 @media screen and (min-width:1281px) and (max-width:1300px){
+    div#cabeca {
+        width: 100%;
+        height: 170px;
+    }
     section#corpo {
-        background-color: rosybrown;
+        /*background-color: rosybrown;*/
         float: left;
         position: relative;
         left: 0px;
@@ -672,8 +662,12 @@ figure#centro {
     }
 }
 @media screen and (min-width:1300px) {
-    section#corpo {
+    /*section#corpo {
         background-color: rgb(112, 110, 110);
+    }*/
+    div#cabeca {
+        width: 100%;
+        height: 170px;
     }
     div#pesquisa {
         max-width: 400px;
